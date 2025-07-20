@@ -6,7 +6,7 @@ from tqdm import tqdm
 import os
 
 # ====== Config ======
-HF_TOKEN = "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"
+HF_TOKEN = "YOUR_HUGGINGFACE_TOKEN"
 MODEL_ID = "Viet-Mistral/Vistral-7B-Chat"
 INPUT_PATH = "/SSD/team_voice/vmnghia/workdir/VLSP/resource/duration_training_dataset_normalized.txt"
 OUTPUT_PATH = "/SSD/team_voice/vmnghia/workdir/VLSP/vistral_predictions.txt"
