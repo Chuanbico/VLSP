@@ -32,7 +32,7 @@ chat_pipeline = pipeline(
 )
 
 # ====== Load Input Data ======
-print(f"📄 Đọc dữ liệu từ: {INPUT_PATH}")
+print(f"Đọc dữ liệu từ: {INPUT_PATH}")
 with open(INPUT_PATH, 'r', encoding='utf-8') as f:
     data = [json.loads(line.strip()) for line in f if line.strip()]
 
@@ -57,7 +57,7 @@ Trả lời chỉ bằng "yes" hoặc "no":
         print(f"[Lỗi mô hình] {e}")
     return "no"
 
-print("🤖 Đang suy luận...")
+print("Đang suy luận...")
 output_data = []
 
 for ex in tqdm(data):

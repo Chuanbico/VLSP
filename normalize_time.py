@@ -56,5 +56,5 @@ with open(input_path, "r", encoding="utf-8") as f_in, \
             print(f"[Lỗi xử lý dòng {i+1}]: {e}")
             num_fail += 1
 
-print(f"✅ Tổng dòng: {num_total} | Thành công: {num_success} | Lỗi: {num_fail}")
-print(f"📄 File output đã ghi tại: {output_path}")
+print(f"Tổng dòng: {num_total} | Thành công: {num_success} | Lỗi: {num_fail}")
+print(f"File output đã ghi tại: {output_path}")
