@@ -1,0 +1,30 @@
+Python
+__pycache__/
+*.pyc
+
+VS Code
+.vscode/
+
+Notebook checkpoint
+.ipynb_checkpoints/
+change.py
+code.ipynb
+
+
+Mô hình machine learning
+*.pt
+*.pth
+*.h5
+
+Dữ liệu
+data/
+*.csv
+*.json
+*.txt
+
+File hệ thống
+.DS_Store
+Thumbs.db
+
+#checkpoint mô hình
+weights/
