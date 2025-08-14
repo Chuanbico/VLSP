@@ -21,6 +21,7 @@ data/
 *.csv
 *.json
 *.txt
+*.pdf
 
 File hệ thống
 .DS_Store
@@ -30,3 +31,5 @@ Thumbs.db
 weights/
 
 *.env
+
+*.zip
